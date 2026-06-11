@@ -1,0 +1,25 @@
+{
+  "name": "basecamp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mahi-tech-p/Basecamp.git"
+  },
+  "author": "Mahendra Mogathala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mahi-tech-p/Basecamp/issues"
+  },
+  "homepage": "https://github.com/Mahi-tech-p/Basecamp#readme",
+  "description": "",
+  "devDependencies": {
+    "prettier": "3.8.4"
+  }
+}
