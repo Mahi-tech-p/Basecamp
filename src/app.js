@@ -11,8 +11,12 @@ app.use(cors({
     methods: ["GET", "POST", "PATCH", "DELETE", "OPTIONS"],
     allowedHeaders: ["Authorization", "Content-Type"]
 }))
+
+import healthCheckRouter from "./Routes/healthCheckRoute.js"
+app.use("/api/v1/healthcheck", healthCheckRouter)
+
 app.get('/', (req, res) => {
-    res.send("Hi from the server")
+    res.send("Server is Up and Running")
 })
 
 
